@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+};
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+:root {
+    --bg-black: #0a0a0a;
+    --surface-dark: #121212;
+    --primary-gold: #d4af37;
+    --gold-hover: #b8972f;
+    --text-white: #ffffff;
+    --text-muted: #a0a0a0;
+    --max-width: 1200px;
+    --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+
